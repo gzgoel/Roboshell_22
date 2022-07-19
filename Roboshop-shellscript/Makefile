@@ -1,0 +1,2 @@
+frontend:
+	bash frontend.sh

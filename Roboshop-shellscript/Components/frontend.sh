@@ -1,3 +1,8 @@
+user_id = $(id -u)
+if [ $user_id -ne 0 ]; then
+  echo you are not root
+  fi
+
 echo installing frontend component
 yum install nginx -y
 systemctl enable nginx
